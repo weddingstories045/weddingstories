@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Weddings</title>
+<meta name="description" content="Wedding photography portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="/" id="logo"></a>
+  <button class="menu-btn" id="menuBtn">Menu</button>
+  <nav><ul id="nav">
+    <li><a href="/" class="on">Home</a></li>
+    <li><a href="#stories">Stories</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#enquire">Enquire</a></li>
+  </ul></nav>
+</div></header>
+
+<div class="strip" id="strip"></div>
+<div class="hero-copy"><h1 id="heroTitle"></h1><p id="heroText"></p></div>
+<div class="quote" id="heroQuote"></div>
+
+<div class="wrap" id="stories">
+  <div class="eyebrow" id="storiesHeading">Real Love Stories</div>
+  <div class="story-list" id="storyList"></div>
+</div>
+
+<section class="block" id="about"><div class="wrap"><div class="about" id="about-in"></div></div></section>
+
+<section class="block" id="enquire"><div class="wrap enq">
+  <h2>Enquire</h2>
+  <p class="sub">Tell me about your wedding. I reply within a day or two.</p>
+  <form class="enq-form" id="enqForm">
+    <input name="name" placeholder="Your names *" required>
+    <input name="email" type="email" placeholder="Email *" required>
+    <input name="phone" placeholder="Phone">
+    <input name="date" placeholder="Wedding date">
+    <input name="location" class="full" placeholder="Wedding location">
+    <textarea name="message" class="full" placeholder="Tell me about your story *" required></textarea>
+    <input name="website" class="hp" tabindex="-1" autocomplete="off">
+    <div class="full" style="text-align:center"><button class="btn" type="submit">Send enquiry</button><div class="msg" id="enqMsg"></div></div>
+  </form>
+  <div class="contact-line" id="contactLine"></div>
+</div></section>
+
+<footer><div class="wrap">&copy; <span id="copy"></span> <a id="ig" target="_blank" rel="noopener">Instagram</a></div></footer>
+<script src="/js/common.js"></script>
+<script src="/js/site.js"></script>
+</body>
+</html>
