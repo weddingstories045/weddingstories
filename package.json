@@ -1,0 +1,9 @@
+{
+  "name": "wedding-photography-site",
+  "version": "1.0.0",
+  "description": "Wedding photographer portfolio with admin panel (zero dependencies)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" },
+  "license": "MIT"
+}
